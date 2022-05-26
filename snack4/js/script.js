@@ -7,7 +7,6 @@ let nomiInvitati = ["Anna", "Giuseppe", "Massimiliano", "Maria"];
 
 let nomeUtente = prompt("Scrivi il tuo nome");
 
-// let i = 0;
 
 for( let i = 0; i < nomiInvitati.length; i ++ ) {
 
@@ -18,24 +17,4 @@ for( let i = 0; i < nomiInvitati.length; i ++ ) {
     }
 }
 
-// while (nomeUtente === undefined && i < nomiInvitati.length) { 
-
-//     // for( let i = 0; i < nomiInvitati.lenght; i++ ) {
-
-//         if(nomiInvitati[i] === nomeUtente  ) {
-
-//             alert("Benvenuto alla Festa!!");
-//         }else {
-//             alert("Mi Dispiace non sei sulla lista!!");
-//         }
-
-//         i++;
-// }
-//     console.log(nomeUtente);
-
-//     // if (nomiInvitati[i] === nomeUtente) {
-
-//     //     alert(`Benvenuto alla Festa ${nomeUtente}`);
-//     // }
-    
-//     // i++;
+console.log(nomeUtente)
